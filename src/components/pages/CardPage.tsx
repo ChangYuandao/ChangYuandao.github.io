@@ -27,6 +27,11 @@ const markdownComponents = {
     code: ({ children }: React.ComponentProps<'code'>) => (
         <code className="px-1.5 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 text-[0.95em]">{children}</code>
     ),
+    img: ({ alt, ...props }: React.ComponentProps<'img'>) => (
+        // Figures are static research assets with unknown intrinsic layout; a plain image keeps them full width.
+        // eslint-disable-next-line @next/next/no-img-element
+        <img {...props} alt={alt ?? ''} className="my-4 w-full h-auto rounded-lg border border-neutral-200 bg-white dark:border-neutral-700" />
+    ),
 };
 
 export default function CardPage({ config, embedded = false }: { config: CardPageConfig; embedded?: boolean }) {

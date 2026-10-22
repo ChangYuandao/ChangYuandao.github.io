@@ -1,7 +1,15 @@
 [[news]]
-date = "2025-11"
-content = "我们的工作被顶级期刊接收了 🎉"
+date = "2026-10"
+content = "正在研究面向视觉-语言-动作模型的无新增参数历史视觉记忆，目标投稿 CVPR 2027。"
 
 [[news]]
-date = "2025-09"
-content = "在某某大学开始博士学习"
+date = "2026"
+content = "奖励函数自动设计工作 R²E 被 NeurIPS 2026 接收，我是唯一第一作者。"
+
+[[news]]
+date = "2026"
+content = "在 ACE Robotics 实习期间，于世界人工智能大会获得特别激励。"
+
+[[news]]
+date = "2026-05"
+content = "开始在深圳 ACE Robotics 担任研究实习生，在真机上后训练并部署策略。"

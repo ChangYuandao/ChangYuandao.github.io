@@ -1,27 +1,21 @@
 type = "card"
 title = "奖项"
-description = "我获得的荣誉与奖项。"
+description = "简历中列出的荣誉。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2025"
-content = "奖项说明。"
+title = "世界人工智能大会特别激励"
+subtitle = "世界人工智能大会"
+date = "2026"
+content = "在 ACE Robotics 实习期间获得。会议现场完成模型训练，并实时修复问题。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
+title = "推荐免试攻读硕士"
+subtitle = "湖南大学"
 date = "2024"
-content = "奖项说明。"
+content = "以推免方式进入湖南大学计算机科学硕士研究生项目，免于参加入学考试。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2023"
-content = "奖项说明。"
-
-[[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2022"
-content = "奖项说明。"
+title = "全国普通高等学校招生考试"
+subtitle = "河南"
+date = "2020"
+content = "河南省高考，115 万名考生中排名第 7000 名。"

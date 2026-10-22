@@ -1,27 +1,21 @@
 type = "card"
 title = "Awards"
-description = "Honors and awards I have received."
+description = "Honors listed on my curriculum vitae."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2025"
-content = "Description of the award."
+title = "WAIC Special Incentive"
+subtitle = "World Artificial Intelligence Conference"
+date = "2026"
+content = "Received during my internship at ACE Robotics, for training the model and fixing issues in real time at the conference."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Recommended Admission"
+subtitle = "Hunan University"
 date = "2024"
-content = "Description of the award."
+content = "Admitted to the M.S. program in Computer Science by recommendation, and exempted from the entrance exam."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2022"
-content = "Description of the award."
+title = "National College Entrance Examination"
+subtitle = "Henan, China"
+date = "2020"
+content = "Ranked 7,000th among 1.15 million candidates in Henan."

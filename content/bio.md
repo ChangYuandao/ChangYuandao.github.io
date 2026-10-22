@@ -1,5 +1,5 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am a master's student in Computer Science at [Hunan University](https://www.hnu.edu.cn/), and I expect to graduate in June 2027. I joined the program by recommendation, after receiving my B.S. in Computer Science from the same university in 2024.
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+I work on reinforcement learning and robot learning. I am interested in automated reward design, and in giving vision-language-action models a visual memory they can use across time. My paper on R²E, a role-driven framework for automated reward function design, has been accepted at NeurIPS 2026. I am the sole first author.
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+Since May 2026, I have been a research intern at ACE Robotics in Shenzhen. I post-train and deploy π0.5 on real robots: collecting and checking teleoperation data, running supervised and offline training, and tracing on-robot failures back to the data.

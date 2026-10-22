@@ -1,26 +1,36 @@
+[Download PDF](/cv/ChangShouhao_CV.pdf)
+
+Shouhao Chang · changyuandao699@gmail.com · (+86) 166-8081-0630 · Hometown: Pingdingshan, Henan
+
 ## Education
 
-**The University of Example**, PhD in Natural Science, *2025 - Present*
-- Research focus: Mathematical Principles of Natural Philosophy
-- Supervisor: Prof. Advisor One and Dr. Advisor Two
+**Hunan University**, M.S. in Computer Science, *Sep 2024 – Jun 2027 (expected)*
+- Changsha, China. Admitted by recommendation and exempt from the entrance exam.
 
-**The University of Example**, BSc in Natural Science, *2021 - 2025*
-- Graduated with First Class Honours
+**Hunan University**, B.S. in Computer Science, *Sep 2020 – Jun 2024*
+- Changsha, China. National College Entrance Examination (Henan): ranked 7,000th among 1.15 million candidates.
 
-## Experience
+## Research
 
-**Example Role**
-Company/Institution
-*2023 - 2024*
-- Description of key responsibilities and achievements.
-- Utilized skills to solve problems.
+**R²E: A Role-driven Reward Evolutionary Framework for Automated Reward Function Design**
+Sole first author · Accepted at NeurIPS 2026
+- Reward design in reinforcement learning still relies on costly manual trial and error. LLM-based methods explore the reward space poorly and make training unstable, because candidates are sampled without distinction and past feedback is underused.
+- R²E splits the search across three LLM roles: an Explorer for novel rewards, a Guardian for conservative edits that stabilize training, and an Evolver that recombines strong rewards by crossover and mutation. A scheduler shifts from exploration to exploitation, and a Global Elite Pool keeps the best rewards so the roles can build on them.
+- Experiments on multiple robotic tasks show that the generated reward functions are effective. [Code](https://github.com/ChangYuandao/R2E).
+
+**Parameter-Free Historical Visual Memory Enhancement for VLA Models**
+Ongoing · Target: CVPR 2027
+- Current physical-intelligence models act only on the present frame and have no visual memory across time. In tasks such as placing a bottle into a paper bag, several similar handles appear at once, and the models cannot use earlier views to choose the right one.
+- The memory has to be added without hurting the original tasks. Adding learnable parameters to the SigLIP encoder broke the existing visual-token semantics and lowered real-robot performance. The method leaves the architecture unchanged: the same encoder embeds the current frame and past frames, spatiotemporal attention mixes their tokens, and only the current-frame output is passed on.
+- Early real-robot trials show a gain on these tasks, and simulation experiments are underway. Historical visual memory can be added by post-training alone, without new pretraining.
+
+## Internship
+
+**Research Intern**, ACE Robotics, *May 2026 – Present*
+- Shenzhen, China. Post-trained π0.5 and deployed it on real robots. Collected teleoperation data, checked its quality, and converted the format, then ran supervised and offline training, followed by on-robot inference and iteration. When the robot failed, traced the cause back to the data and corrected it.
+- At the World Artificial Intelligence Conference, trained the model and fixed bugs in real time, and received a WAIC special incentive.
 
 ## Skills
 
-- **Programming:** Python, C++, MATLAB, LaTeX
-- **Data Analysis:** Pandas, NumPy, SciPy
-- **Languages:** English (Native), French (Fluent)
-
-## Awards & Honors
-
-- **First Prize in Example Competition** - Committee of Example (*2024*)
+- **Research:** Reinforcement learning, deep learning, and robotics.
+- **Engineering:** Python, C++, PyTorch, JAX, Git, and real-robot deployment.
