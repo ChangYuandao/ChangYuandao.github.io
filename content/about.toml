@@ -5,8 +5,7 @@ title = "About"
 research_interests = [
   "Reinforcement Learning",
   "Robot Learning",
-  "Reward Design",
-  "Vision-Language-Action Models"
+  "Reward Design"
 ]
 
 [[sections]]

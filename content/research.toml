@@ -1,6 +1,6 @@
 type = "card"
 title = "Research"
-description = "Reinforcement learning for robots, from reward design in simulation to vision-language-action policies on real hardware."
+description = "Reinforcement learning for robots, including automated reward design."
 
 [[items]]
 title = "R²E: A Role-driven Reward Evolutionary Framework"
@@ -19,17 +19,4 @@ Code: [github.com/ChangYuandao/R2E](https://github.com/ChangYuandao/R2E)
 ![Overview of the three roles and the Global Elite Pool](/research/r2e-overview.png)
 
 ![Isaac Gym tasks used in the experiments](/research/isaacgym.png)
-'''
-
-[[items]]
-title = "Parameter-Free Historical Visual Memory for VLA Models"
-subtitle = "Ongoing · Target venue: CVPR 2027"
-date = "2026"
-tags = ["VLA", "Robot Learning", "Real Robot"]
-content = '''
-Current physical-intelligence models act on the present frame and have no visual memory across time. In tasks such as placing a bottle into a paper bag, several similar handles appear at once, and the model cannot use earlier views to choose the right one. The goal is to give vision-language-action models this memory.
-
-The memory has to be added without hurting the original tasks. Editing the SigLIP encoder with new learnable parameters broke the existing visual-token semantics and lowered real-robot performance. Following the idea behind PI-MEM, the method leaves the architecture unchanged: the same encoder embeds the current frame and past frames, spatiotemporal attention mixes their tokens, and only the current-frame output is passed on, so the original VLA interface stays intact.
-
-Early real-robot trials show a gain on these tasks, and simulation experiments are underway. For a VLA model, historical visual memory can be added by post-training alone, without new pretraining.
 '''

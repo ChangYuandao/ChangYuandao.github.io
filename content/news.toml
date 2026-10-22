@@ -1,8 +1,4 @@
 [[news]]
-date = "2026-10"
-content = "Working on parameter-free historical visual memory for vision-language-action models, with CVPR 2027 as the target venue."
-
-[[news]]
 date = "2026"
 content = "R²E, on automated reward function design, has been accepted at NeurIPS 2026. I am the sole first author."
 

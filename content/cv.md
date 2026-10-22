@@ -1,5 +1,3 @@
-[Download PDF](/cv/ChangShouhao_CV.pdf)
-
 Shouhao Chang · changyuandao699@gmail.com · (+86) 166-8081-0630 · Hometown: Pingdingshan, Henan
 
 ## Education
@@ -17,12 +15,6 @@ Sole first author · Accepted at NeurIPS 2026
 - Reward design in reinforcement learning still relies on costly manual trial and error. LLM-based methods explore the reward space poorly and make training unstable, because candidates are sampled without distinction and past feedback is underused.
 - R²E splits the search across three LLM roles: an Explorer for novel rewards, a Guardian for conservative edits that stabilize training, and an Evolver that recombines strong rewards by crossover and mutation. A scheduler shifts from exploration to exploitation, and a Global Elite Pool keeps the best rewards so the roles can build on them.
 - Experiments on multiple robotic tasks show that the generated reward functions are effective. [Code](https://github.com/ChangYuandao/R2E).
-
-**Parameter-Free Historical Visual Memory Enhancement for VLA Models**
-Ongoing · Target: CVPR 2027
-- Current physical-intelligence models act only on the present frame and have no visual memory across time. In tasks such as placing a bottle into a paper bag, several similar handles appear at once, and the models cannot use earlier views to choose the right one.
-- The memory has to be added without hurting the original tasks. Adding learnable parameters to the SigLIP encoder broke the existing visual-token semantics and lowered real-robot performance. The method leaves the architecture unchanged: the same encoder embeds the current frame and past frames, spatiotemporal attention mixes their tokens, and only the current-frame output is passed on.
-- Early real-robot trials show a gain on these tasks, and simulation experiments are underway. Historical visual memory can be added by post-training alone, without new pretraining.
 
 ## Internship
 
