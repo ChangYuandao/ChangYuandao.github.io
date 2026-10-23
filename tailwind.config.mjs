@@ -12,8 +12,14 @@ export default {
     extend: {
       fontFamily: {
         sans: [
-          'Inter',
-          ...defaultTheme.fontFamily.sans,
+          'Rockwell',
+          'Georgia',
+          ...defaultTheme.fontFamily.serif,
+        ],
+        serif: [
+          'Rockwell',
+          'Georgia',
+          ...defaultTheme.fontFamily.serif,
         ],
       },
       colors: {
