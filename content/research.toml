@@ -14,9 +14,5 @@ R²E splits the search across three LLM roles. An Explorer proposes novel reward
 
 Code: [github.com/ChangYuandao/R2E](https://github.com/ChangYuandao/R2E)
 
-![R²E compared with Eureka](/research/r2e-teaser.png)
-
 ![Overview of the three roles and the Global Elite Pool](/research/r2e-overview.png)
-
-![Isaac Gym tasks used in the experiments](/research/isaacgym.png)
 '''

@@ -14,9 +14,5 @@ R²E 把搜索拆给三个角色。Explorer 提出新的奖励，Guardian 做保
 
 代码：[github.com/ChangYuandao/R2E](https://github.com/ChangYuandao/R2E)
 
-![R²E 与 Eureka 的对比](/research/r2e-teaser.png)
-
 ![三个角色与 Global Elite Pool](/research/r2e-overview.png)
-
-![实验使用的 Isaac Gym 任务](/research/isaacgym.png)
 '''
