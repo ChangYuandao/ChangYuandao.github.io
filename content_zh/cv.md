@@ -8,14 +8,6 @@ Shouhao Chang · changyuandao699@gmail.com · (+86) 166-8081-0630 · 籍贯：�
 **湖南大学**，计算机科学学士，*2020 年 9 月 – 2024 年 6 月*
 - 长沙。河南省高考，115 万名考生中排名第 7000 名。
 
-## 研究
-
-**R²E: A Role-driven Reward Evolutionary Framework for Automated Reward Function Design**
-唯一第一作者 · NeurIPS 2026 接收
-- 强化学习中的奖励设计仍然依赖昂贵的人工试错。基于大语言模型的方法对奖励空间探索不足，训练也不稳定，因为候选奖励不加区分地采样，历史反馈也没有被好好利用。
-- R²E 把搜索拆成三个角色：Explorer 提出新奖励，Guardian 做保守修改以稳住训练，Evolver 用交叉和变异重组表现好的奖励。调度器把搜索从探索转到利用，Global Elite Pool 保留最好的奖励，供各角色继续改进。
-- 在多项机器人任务上，生成的奖励函数是有效的。[代码](https://github.com/ChangYuandao/R2E)。
-
 ## 实习
 
 **研究实习生**，ACE Robotics，*2026 年 5 月 – 至今*

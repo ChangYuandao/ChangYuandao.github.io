@@ -22,12 +22,6 @@ target = "about"
 href = "/"
 
 [[navigation]]
-title = "研究"
-type = "page"
-target = "research"
-href = "/research"
-
-[[navigation]]
 title = "论文"
 type = "page"
 target = "publications"

@@ -8,14 +8,6 @@ Shouhao Chang · changyuandao699@gmail.com · (+86) 166-8081-0630 · Hometown: P
 **Hunan University**, B.S. in Computer Science, *Sep 2020 – Jun 2024*
 - Changsha, China. National College Entrance Examination (Henan): ranked 7,000th among 1.15 million candidates.
 
-## Research
-
-**R²E: A Role-driven Reward Evolutionary Framework for Automated Reward Function Design**
-Sole first author · Accepted at NeurIPS 2026
-- Reward design in reinforcement learning still relies on costly manual trial and error. LLM-based methods explore the reward space poorly and make training unstable, because candidates are sampled without distinction and past feedback is underused.
-- R²E splits the search across three LLM roles: an Explorer for novel rewards, a Guardian for conservative edits that stabilize training, and an Evolver that recombines strong rewards by crossover and mutation. A scheduler shifts from exploration to exploitation, and a Global Elite Pool keeps the best rewards so the roles can build on them.
-- Experiments on multiple robotic tasks show that the generated reward functions are effective. [Code](https://github.com/ChangYuandao/R2E).
-
 ## Internship
 
 **Research Intern**, ACE Robotics, *May 2026 – Present*

@@ -1,4 +1,4 @@
 type = "text"
 title = "CV"
-description = "Education, research, and internship."
+description = "Education and internship."
 source = "cv.md"
