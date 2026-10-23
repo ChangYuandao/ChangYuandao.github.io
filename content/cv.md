@@ -20,7 +20,6 @@ Sole first author · Accepted at NeurIPS 2026
 
 **Research Intern**, ACE Robotics, *May 2026 – Present*
 - Shenzhen, China. Post-trained π0.5 and deployed it on real robots. Collected teleoperation data, checked its quality, and converted the format, then ran supervised and offline training, followed by on-robot inference and iteration. When the robot failed, traced the cause back to the data and corrected it.
-- At the World Artificial Intelligence Conference, trained the model and fixed bugs in real time, and received a WAIC special incentive.
 
 ## Skills
 
