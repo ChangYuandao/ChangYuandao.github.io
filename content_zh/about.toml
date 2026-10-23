@@ -5,7 +5,6 @@ title = "关于我"
 research_interests = [
   "强化学习",
   "机器人学习",
-  "奖励函数设计"
 ]
 
 [[sections]]
