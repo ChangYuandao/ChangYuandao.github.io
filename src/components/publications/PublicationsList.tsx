@@ -2,7 +2,6 @@
 
 import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import Image from 'next/image';
 import {
     MagnifyingGlassIcon,
     FunnelIcon,
@@ -201,17 +200,12 @@ export default function PublicationsList({ config, publications, embedded = fals
                         >
                             <div className="flex flex-col md:flex-row gap-6">
                                 {pub.preview && (
-                                    <div className="w-full md:w-48 flex-shrink-0">
-                                        <div className="aspect-video md:aspect-[4/3] relative rounded-lg overflow-hidden bg-white border border-neutral-200 dark:border-neutral-800">
-                                            <Image
-                                                src={`/papers/${pub.preview}`}
-                                                alt={pub.title}
-                                                fill
-                                                className="object-contain"
-                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                                            />
-                                        </div>
-                                    </div>
+                                    // eslint-disable-next-line @next/next/no-img-element
+                                    <img
+                                        src={`/papers/${pub.preview}`}
+                                        alt={pub.title}
+                                        className="w-full md:w-48 h-auto self-start flex-shrink-0 rounded-lg"
+                                    />
                                 )}
                                 <div className="flex-grow">
                                     <h3 className={`${embedded ? "text-lg" : "text-xl"} font-semibold text-primary mb-2 leading-tight`}>
