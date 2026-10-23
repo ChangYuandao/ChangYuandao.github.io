@@ -1,5 +1,5 @@
-I am a master's student in Computer Science at [Hunan University](https://www.hnu.edu.cn/), and I expect to graduate in June 2027. I joined the program by recommendation, after receiving my B.S. in Computer Science from the same university in 2024.
+I entered the College of Computer Science at [Hunan University](https://www.hnu.edu.cn/) in 2020 through the Henan college entrance examination, and in 2024 I continued there by recommendation.
 
-I work on reinforcement learning and robot learning. My paper on R²E, a role-driven framework for automated reward function design, has been accepted at NeurIPS 2026. I am the sole first author.
+My research focuses on reinforcement learning and embodied intelligence.
 
-Since May 2026, I have been a research intern at ACE Robotics in Shenzhen. I post-train and deploy π0.5 on real robots: collecting and checking teleoperation data, running supervised and offline training, and tracing on-robot failures back to the data.
+Since May 2026, I have been an algorithm intern at ACE Robotics.
