@@ -3,7 +3,6 @@
 import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-    MagnifyingGlassIcon,
     FunnelIcon,
     CalendarIcon,
     BookOpenIcon,
@@ -24,7 +23,6 @@ interface PublicationsListProps {
 
 export default function PublicationsList({ config, publications, embedded = false }: PublicationsListProps) {
     const messages = useMessages();
-    const [searchQuery, setSearchQuery] = useState('');
     const [selectedYear, setSelectedYear] = useState<number | 'all'>('all');
     const [selectedType, setSelectedType] = useState<string | 'all'>('all');
     const [showFilters, setShowFilters] = useState(false);
@@ -45,18 +43,12 @@ export default function PublicationsList({ config, publications, embedded = fals
     // Filter publications
     const filteredPublications = useMemo(() => {
         return publications.filter(pub => {
-            const matchesSearch =
-                pub.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                pub.authors.some(author => author.name.toLowerCase().includes(searchQuery.toLowerCase())) ||
-                pub.journal?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                pub.conference?.toLowerCase().includes(searchQuery.toLowerCase());
-
             const matchesYear = selectedYear === 'all' || pub.year === selectedYear;
             const matchesType = selectedType === 'all' || pub.type === selectedType;
 
-            return matchesSearch && matchesYear && matchesType;
+            return matchesYear && matchesType;
         });
-    }, [publications, searchQuery, selectedYear, selectedType]);
+    }, [publications, selectedYear, selectedType]);
 
     return (
         <motion.div
@@ -73,20 +65,9 @@ export default function PublicationsList({ config, publications, embedded = fals
                 )}
             </div>
 
-            {/* Search and Filter Controls */}
+            {/* Filter Controls */}
             <div className="mb-8 space-y-4">
-                {/* ... (keep existing controls) ... */}
                 <div className="flex flex-col sm:flex-row gap-4">
-                    <div className="relative flex-grow">
-                        <MagnifyingGlassIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-neutral-400" />
-                        <input
-                            type="text"
-                            placeholder={messages.publications.searchPlaceholder}
-                            value={searchQuery}
-                            onChange={(e) => setSearchQuery(e.target.value)}
-                            className="w-full pl-10 pr-4 py-2 rounded-lg border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-200"
-                        />
-                    </div>
                     <button
                         onClick={() => setShowFilters(!showFilters)}
                         className={cn(
